@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>リストの先頭に箱をつける</title>
+  <meta charset="UTF-8">
+</head>
+<style>
+/*リスト本体の設定*/
+li {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background: white;
+  border-color: black;
+  border-style: none none dotted none;
+  width: 300px;
+}
+
+/*リストの各要素に前要素として■を付ける*/
+li:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+/*リストの各要素の前要素のデザインを設定*/
+li.series1:before {
+  background: rgba(245,177,46,0.8);
+  border-radius:10;
+}
+li.series2:before {
+  background: rgba(25,0,179,0.8);
+  border-radius:10;
+}
+li.series3:before {
+  background: rgba(173,21,0,0.8);
+  border-radius:10;
+}
+
+li.series4:before {
+  background: #9696D5;
+  border-radius:2;
+}
+li.series5:before {
+  background: #DA2550;
+  border-radius:2;
+}
+li.series6:before {
+  background: #341F47;
+  border-radius:2;
+}
+</style>
+<body>
+  <h1>リストサンプル</h1>
+    <div>
+<ul>
+<li class="series1">系列1</li>
+        <li class="series2">系列2</li>
+        <li class="series3">系列3</li>
+</ul>
+<ul>
+<li class="series4">系列4</li>
+        <li class="series5">系列5</li>
+        <li class="series6">系列6</li>
+</ul>
+    </div>
+</body>
+</html>
+
