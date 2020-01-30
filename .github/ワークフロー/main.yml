@@ -1,0 +1,13 @@
+-名前：HTML / CSS to Image
+  使用：htmlcsstoimage / action @ v1
+  で：
+    ＃HCTI API ID
+    hcti_user_id： 
+    ＃HCTI APIキー。シークレットを使用してこれを設定します
+    hcti_api_key： 
+    ＃画像のHTML
+    html： 
+    ＃画像のCSS
+    css：＃オプション、デフォルトは 
+    ＃画像にロードされるGoogleフォント
+    google_fonts：＃オプション
