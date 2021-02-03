@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* --------------------------------
+ * colors
+ * -------------------------------- */
+
+ body {
+  background: var(--color-point) url('../images/bg.jpg') no-repeat fixed left bottom;
+}
+
+.heading::after {
+  color: var(--color-point2);
+}
+.button {
+  background-color: #afa58d;
+  color: var(--color-point);
+}
+.button-ghost {
+  border: 1px solid var(--color-point);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.site-title-sub::after,
+.site-title-sub::before {
+  background-color: var(--color-point);
+}
+
+.site-title {
+  color: #000;}
+.site-description, .site-title-sub {
+  color: #000;
+}
+.intro {
+  background-color: var(--color-dark);
+  color: #000;
+}
+.about {
+  /* background-color: var(--color-point); */
+  color: #000;
+}
+.about-wrapper {
+  background-color: var(--color-point);
+}
+.about-icon{
+  color: #fff;
+}
+.contact-icon{
+  color: #000;
+}
+.picts {
+  background-color: var(--color-dark);
+  color: #000;
+}
+.picts-text{
+  background-color:var(--color-light);
+  color: #fff;
+}
+.contact-form textarea {
+  border: rgba(255, 255, 255, 0.4);
+  background-color: var(--color-dark);
+  color: #000;
+}
+.contact {
+  color: #000;
+}
+.contact-form textarea:focus {
+  box-shadow: rgba(255, 255, 255, 0.5);
+}
+.contact-form input[type=submit] {
+  border:var(--color-point);
+  color:var(--color-point);
+}
+.contact-form input[type=submit]:hover {
+  background-color: var(--color-point2);
+}

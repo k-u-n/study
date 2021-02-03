@@ -1,0 +1,14 @@
+   @charset "UTF-8";
+/* --------------------------------
+ * colors
+ * -------------------------------- */
+
+ :root{
+   --color-point: #C9E2EF;
+   --color-point2: #222A38;
+   --color-dark: #43BF87;
+   --color-light: #FFD758;
+   --color-text1: #000;
+   --color-text2: #fff;
+   }
+   

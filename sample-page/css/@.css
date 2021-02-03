@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* --------------------------------
+ * colors
+ * -------------------------------- */
+ body {
+  background: #DF672A url('../images/bg.jpg') no-repeat fixed left bottom;
+  color: #DF672A;
+}
+
+.heading::after {
+  color: #DF672A;
+}
+.button {
+  background-color: #afa58d;
+  color: #DF672A;
+}
+.button-showy {
+  background-color: #D29E04;
+}
+.button-ghost {
+  border: 1px solid #DF672A;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.site-title-sub::after,
+.site-title-sub::before {
+  background-color: #DF672A;
+}
+
+.site-title {
+  color: #000;}
+.site-description, .site-title-sub {
+  color: #000;
+}
+.intro {
+  background-color: #142867;
+  color: #000;
+}
+.about {
+  /* background-color: #DF672A; */
+  color: #000;
+}
+.about-wrapper {
+  background-color: #DF672A;
+}
+.about-icon{
+  color: #fff;
+}
+.contact-icon{
+  color: #000;
+}
+.picts {
+  background-color: #142867;
+  color: #000;
+}
+.picts-text{
+  background-color:#5A9DE4;
+  color: #fff;
+}
+.contact-form textarea {
+  border: rgba(255, 255, 255, 0.4);
+  background-color: #142867;
+  color: #000;
+}
+.contact {
+  color: #000;
+}
+.contact-form textarea:focus {
+  box-shadow: rgba(255, 255, 255, 0.5);
+}
+.contact-form input[type=submit] {
+  border: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-form input[type=submit]:hover {
+  background-color: #142867;
+}
